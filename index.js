@@ -5,8 +5,6 @@ let card=document.querySelector(".card");
 let attempts=document.getElementById("attempts");
 attempts.innerText=10;
 let secret=Math.floor(Math.random()*100)+1;
-console.log(secret);
-console.log(card.innerText);
 function s(){
     o.style.color="#ff0000";
     o.style.marginTop="10px";
@@ -23,7 +21,6 @@ guess.addEventListener("click",function(){
         s();
     }
     else{
-        console.log(input.value);
         if(input.value!=secret){
             if(input.value>secret){
                 o.innerText="Number is Too high";
@@ -38,7 +35,6 @@ guess.addEventListener("click",function(){
             input.value=null;
             setTimeout(()=>{
                 card.classList.remove("error");
-                console.log("JAI SHREE RAM");
             },1000);
         }
          if(input.value==secret){
