@@ -1,0 +1,82 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #333;
+
+    min-height: 100vh;
+    color:#fff;
+}
+
+h1{
+    margin-top: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #3498DB;
+    font-size: 2.5rem;
+    text-align: center;
+}
+.card{
+    background-color: #fff;
+    color: #333;
+    padding: 20px;
+    border-radius: 10px;
+    width: 350px;
+    border: 1px solid;
+    box-shadow: 0 0 8px #00ff88,
+                0 0 12px #00ff88,
+                inset 0 0 8px #00ff88;
+    border-color: #00ff88;
+    height: 300px;
+}
+.error{
+    box-shadow: 0 0 8px #ff0000, 0 0 12px #ff0000, inset 0 0 8px #ff0000;
+    border: 2px solid #ff0000;
+}
+#o{
+    color: #ff0000;
+    
+}
+p{
+    font-size: large;
+    font-weight: 500;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 20px;
+    margin-bottom: 25px;
+    text-align: center;
+}
+input{
+    text-indent: 10px;
+    font-size: large;
+    border:2px solid #3498DB;
+    border-radius: 5px;
+    width: 250px;
+    margin-right: -4px;
+    height: 45px;
+}
+input:focus{
+    outline: none;
+    border: 2px solid #3498DB;
+    border-radius: 5px;
+}
+button{
+    
+    font-size: large;
+    background-color: #3498DB;
+    color: #fff;
+    padding: 10px;
+    border-radius: 5px;
+    width: 100px;
+    border-top-left-radius: 0px;
+    border-bottom-left-radius: 0px;
+    text-decoration: none;
+    cursor: pointer;
+    border: none;
+}
+.content{
+    display: flex;
+    justify-content: center;
+}
