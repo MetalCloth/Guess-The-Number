@@ -3,7 +3,7 @@ let guess=document.getElementById("btn");
 let o=document.getElementById("o");
 let card=document.querySelector(".card");
 let attempts=document.getElementById("attempts");
-attempts.innerText=10;
+attempts.innerText=7;
 let secret=Math.floor(Math.random()*100)+1;
 function s(){
     o.style.color="#ff0000";
