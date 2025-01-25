@@ -43,7 +43,7 @@ guess.addEventListener("click",function(){
         }
          if(attempts.innerText==0){
             alert("You lost");
-            alert("Number was :",secret);
+            alert("Number was :"+secret);
             window.location.reload();
         }
     }
